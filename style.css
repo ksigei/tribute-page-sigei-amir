@@ -19,4 +19,24 @@
 }
 
 #tribute-info ul {
+ justify-content: center;
+    margin: 10px;
+    
+
+}
+
+#tribute-info h4 p  {
+    text-align: center;
+    font-size: 20px;
+}
+
+#tribute-info {
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 30px;
+}
+
+#tribute-info a {
+    text-decoration: none;
 }
