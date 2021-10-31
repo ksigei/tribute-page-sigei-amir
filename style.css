@@ -1,6 +1,6 @@
 #main {
     color: #333;
-    background-color: rgb(194, 191, 191);
+    background-color: #eee;
 }
 
 #title h1 {
@@ -15,7 +15,7 @@
 #img-div {
     text-align: center;
     background-color: white;
-    border: 12px solid rgb(194, 191, 191);
+    border: 12px solid #eee;
 }
 
 #tribute-info ul {
@@ -32,11 +32,22 @@
 
 #tribute-info {
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
     line-height: 30px;
 }
 
 #tribute-info a {
     text-decoration: none;
 }
+  @media only screen and (min-width: 320px) and (max-width: 576px){
+    #main{
+    	width: 100%;
+      
+    }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 576px){
+    #tribute-info{
+    	width: 100%;
+    }
+  }
