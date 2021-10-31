@@ -1,0 +1,22 @@
+#main {
+    color: #333;
+    background-color: rgb(194, 191, 191);
+}
+
+#title h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+#title p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background-color: white;
+    border: 12px solid rgb(194, 191, 191);
+}
+
+#tribute-info ul {
+}
